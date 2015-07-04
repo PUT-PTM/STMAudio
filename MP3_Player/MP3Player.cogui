@@ -19,6 +19,9 @@
 <part id="1"/>
 <part id="2"/>
 <part id="3"/>
+<part id="4"/>
+<part id="5"/>
+<part id="6"/>
 </presentation>
 </folder>
 </info>
@@ -31,13 +34,26 @@
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/MP3Player/inc/main.h"/>
 <editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
 </editor>
-<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" partName="main.c" path="D:/Dysk Google/Studia/Semestr IV/PTM2/PTM/repo/MP3_Player/src/main.c" title="main.c" tooltip="D:/Dysk Google/Studia/Semestr IV/PTM2/PTM/repo/MP3_Player/src/main.c" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/MP3Player/src/main.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
-</editor>
 <editor id="org.eclipse.cdt.ui.editor.CEditor" name="usbd_msc_mem.h" partName="usbd_msc_mem.h" path="D:/Dysk Google/Studia/Semestr IV/PTM2/PTM/repo/MP3_Player/lib/USB_Device/Class/msc/inc/usbd_msc_mem.h" title="usbd_msc_mem.h" tooltip="D:/Dysk Google/Studia/Semestr IV/PTM2/PTM/repo/MP3_Player/lib/USB_Device/Class/msc/inc/usbd_msc_mem.h" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/MP3Player/lib/USB_Device/Class/msc/inc/usbd_msc_mem.h"/>
 <editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1609" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="arm_math.h" partName="arm_math.h" path="D:/Dysk Google/Studia/Semestr IV/PTM2/PTM/repo/MP3_Player/lib/Core/cmsis/arm_math.h" title="arm_math.h" tooltip="D:/Dysk Google/Studia/Semestr IV/PTM2/PTM/repo/MP3_Player/lib/Core/cmsis/arm_math.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/MP3Player/lib/Core/cmsis/arm_math.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="861"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="core_cm0.h" partName="core_cm0.h" path="D:/Dysk Google/Studia/Semestr IV/PTM2/PTM/repo/MP3_Player/lib/Core/cmsis/core_cm0.h" title="core_cm0.h" tooltip="D:/Dysk Google/Studia/Semestr IV/PTM2/PTM/repo/MP3_Player/lib/Core/cmsis/core_cm0.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/MP3Player/lib/Core/cmsis/core_cm0.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.coocox.builder.ui.editors.ConfigEditor" name="" partName="Configuration" title="Configuration" tooltip="" workbook="DefaultEditorWorkbook">
+<input factoryID="org.coocox.builder.ui.persistent.PersistentElementFactory">
+<org.coocox.builder.ui.editors.ConfigEditor horizontalPosition="0" subTagIndex="0" verticalPosition="0"/>
+</input>
+</editor>
+<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.asm.AsmEditor" name="startup_stm32f4xx.s" partName="startup_stm32f4xx.s" path="D:/Dysk Google/Studia/Semestr IV/PTM2/PTM/repo/MP3_Player/lib/startup_stm32f4xx.s" title="startup_stm32f4xx.s" tooltip="D:/Dysk Google/Studia/Semestr IV/PTM2/PTM/repo/MP3_Player/lib/startup_stm32f4xx.s" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/MP3Player/lib/startup_stm32f4xx.s"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="4526" selectionTopPixel="1740"/>
 </editor>
 </editors>
 <views>
@@ -46,21 +62,19 @@
 <ExpressionKeySet ExpKeys=""/>
 </viewState>
 </view>
+<view id="org.coocox.component.ui.ComponentView" partName="Components">
+<viewState/>
+</view>
 <view id="org.coocox.builder.ui.views.ProjectView" partName="Project">
 <viewState CommonNavigator.LINKING_ENABLED="0" horizontalPosition="0" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0" verticalPosition="0">
 <expanded>
 <element path="/MP3Player"/>
 <element path="/MP3Player/lib"/>
-<element path="/MP3Player/lib/Core"/>
-<element path="/MP3Player/lib/USB_Device"/>
 </expanded>
 <selection>
-<element path="/MP3Player/lib/Core"/>
+<element path="/MP3Player/lib/startup_stm32f4xx.s"/>
 </selection>
 </viewState>
-</view>
-<view id="org.coocox.component.ui.ComponentView" partName="Components">
-<viewState/>
 </view>
 <view id="org.eclipse.search.ui.views.SearchView" partName="Search">
 <viewState isPinned="false">
@@ -84,7 +98,7 @@
 <viewState/>
 </view>
 </views>
-<perspectives activePart="org.coocox.builder.ui.views.ProjectView" activePerspective="org.coocox.builder.perspective.CoBuilder">
+<perspectives activePart="org.eclipse.ui.console.ConsoleView" activePerspective="org.coocox.builder.perspective.CoBuilder">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.coocox.builder.ui.PerspectiveCoBuilder" id="org.coocox.builder.perspective.CoBuilder" label="CooCox CoBuilder"/>
 <alwaysOnActionSet id="org.coocox.component.ui.actionSet"/>
@@ -115,15 +129,11 @@
 <hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
 <hide_toolbar_item_id id="org.eclipse.debug.ui.commands.TerminateAndRelaunch"/>
 <view id="org.coocox.builder.ui.views.ProjectView"/>
+<view id="org.eclipse.ui.console.ConsoleView"/>
 <fastViewBars>
 <fastViewBar fastViewLocation="131072" id="org.eclipse.ui.internal.ViewStack@1aa1558" orientation="512" selectedTabId="org.coocox.component.ui.Help" style="0">
 <fastViews>
 <view id="org.coocox.component.ui.Help" ratio="0.3"/>
-</fastViews>
-</fastViewBar>
-<fastViewBar fastViewLocation="1024" id="org.eclipse.ui.internal.ViewStack@c33e7a" orientation="256" selectedTabId="org.eclipse.ui.console.ConsoleView" style="0">
-<fastViews>
-<view id="org.eclipse.ui.console.ConsoleView" ratio="0.3"/>
 </fastViews>
 </fastViewBar>
 <fastViewBar fastViewLocation="16384" id="org.eclipse.ui.internal.ViewStack@112de47" orientation="256" selectedTabId="org.coocox.component.ui.ComponentView" style="0">
@@ -135,7 +145,7 @@
 <layout>
 <mainWindow>
 <info folder="true" part="org.eclipse.ui.internal.ViewStack@112de47">
-<folder appearance="2" expanded="0">
+<folder appearance="2" expanded="2">
 <page content="org.coocox.component.ui.ComponentView" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
@@ -146,10 +156,12 @@
 <page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@c33e7a" ratio="0.9525368" ratioLeft="582" ratioRight="29" relationship="4" relative="org.eclipse.ui.internal.ViewStack@112de47">
-<folder appearance="2" expanded="0">
-<page content="org.eclipse.ui.console.ConsoleView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@c33e7a" ratio="0.71132374" ratioLeft="446" ratioRight="181" relationship="4" relative="org.eclipse.ui.internal.ViewStack@112de47">
+<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
+<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
 </folder>
 </info>
 <info part="org.coocox.builder.ui.exampleView" ratio="0.21944036" ratioLeft="298" ratioRight="1060" relationship="2" relative="org.eclipse.ui.internal.ViewStack@112de47"/>
@@ -316,28 +328,14 @@
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/MP3Player/src/main.c"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/MP3Player/main.c"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/MP3Player/lib/USB_Device/Class/msc/inc/usbd_msc_mem.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/MP3Player/lib/Core/cmsis/arm_math.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/MP3Player/lib/Core/cmsis/core_cm0.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/MP3Player/lib/USB_OTG/src/usb_bsp_template.c"/>
+<editor factoryID="org.coocox.builder.ui.persistent.PersistentElementFactory" id="org.coocox.builder.ui.editors.ConfigEditor">
+<org.coocox.builder.ui.editors.ConfigEditor horizontalPosition="0" subTagIndex="0" verticalPosition="0"/>
+</editor>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.asm.AsmEditor" path="/MP3Player/lib/startup_stm32f4xx.s"/>
 </editors>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="2570" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="2631" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="2716" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="2633" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="2792" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="2874" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="3243" y="0"/>
-</item>
 <item historyLabel="main.c" index="0">
 <position info="not_deleted" x="2570" y="0"/>
 </item>
@@ -440,7 +438,26 @@
 <item historyLabel="main.c" index="20">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item active="true" historyLabel="main.c" index="19">
+<item historyLabel="main.c" index="19">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="arm_math.h" index="22">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="core_cm0.h" index="23">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="arm_math.h" index="22">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="usb_bsp_template.c" index="24">
+<position info="not_deleted" x="1939" y="0"/>
+</item>
+<item historyLabel="arm_math.h" index="22">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Configuration" index="25"/>
+<item active="true" historyLabel="startup_stm32f4xx.s" index="26">
 <position info="not_deleted" x="0" y="0"/>
 </item>
 </navigationHistory>
@@ -450,9 +467,26 @@
 <actionBarAdvisor/>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.asm.AsmEditor" name="startup_stm32f4xx.s" tooltip="MP3Player/lib/startup_stm32f4xx.s">
+<persistable path="/MP3Player/lib/startup_stm32f4xx.s"/>
+</file>
 <file factoryID="org.coocox.builder.ui.persistent.PersistentElementFactory" id="org.coocox.builder.ui.editors.ConfigEditor" name="" tooltip="">
 <persistable>
-<org.coocox.builder.ui.editors.ConfigEditor/>
+<org.coocox.builder.ui.editors.ConfigEditor horizontalPosition="0" subTagIndex="0" verticalPosition="0"/>
+</persistable>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="usb_bsp_template.c" tooltip="MP3Player/lib/USB_OTG/src/usb_bsp_template.c">
+<persistable path="/MP3Player/lib/USB_OTG/src/usb_bsp_template.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="core_cm0.h" tooltip="MP3Player/lib/Core/cmsis/core_cm0.h">
+<persistable path="/MP3Player/lib/Core/cmsis/core_cm0.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="arm_math.h" tooltip="MP3Player/lib/Core/cmsis/arm_math.h">
+<persistable path="/MP3Player/lib/Core/cmsis/arm_math.h"/>
+</file>
+<file factoryID="org.coocox.builder.ui.persistent.PersistentElementFactory" id="org.coocox.builder.ui.editors.ConfigEditor" name="" tooltip="">
+<persistable>
+<org.coocox.builder.ui.editors.ConfigEditor horizontalPosition="0" subTagIndex="0" verticalPosition="0"/>
 </persistable>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f4xx_conf.h" tooltip="test_host/inc/stm32f4xx_conf.h">
@@ -482,21 +516,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="ff.c" tooltip="test_host/lib/fat_fs/src/ff.c">
 <persistable path="/test_host/lib/fat_fs/src/ff.c"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="usbh_msc_core.c" tooltip="test_host/lib/USB_Host/Class/MSC/src/usbh_msc_core.c">
-<persistable path="/test_host/lib/USB_Host/Class/MSC/src/usbh_msc_core.c"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="usbh_core.c" tooltip="test_host/lib/USB_Host/Core/src/usbh_core.c">
-<persistable path="/test_host/lib/USB_Host/Core/src/usbh_core.c"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="usb_bsp.c" tooltip="test_host/App/usb_bsp.c">
-<persistable path="/test_host/App/usb_bsp.c"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="usbh_usr.c" tooltip="test_host/App/usbh_usr.c">
-<persistable path="/test_host/App/usbh_usr.c"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="usbh_usr.c" tooltip="test_host/App/usbh_usr.c">
-<persistable path="/test_host/App/usbh_usr.c"/>
 </file>
 </mruList>
 </workbench>
