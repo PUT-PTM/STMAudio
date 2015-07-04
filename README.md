@@ -9,6 +9,7 @@ This project uses the Helix mp3 decoder and other files from this [example](http
 
 ###Tools
 [CooCox IDE](www.coocox.com) v1.7.8
+
 [GNU ARM Toolchain](https://launchpad.net/gcc-arm-embedded) v4.9 2014q4
 
 ###How to run
@@ -19,8 +20,11 @@ Build the project with CooCox IDE and upload it to the STM32f4 discovery board.
 
 ###Attributions 
 This project is based upon the example from [here](http://vedder.se/2012/12/stm32f4-discovery-usb-host-and-mp3-player/) made by [Benjamin](http://vedder.se/). His example is based on other examples provided by STMicroelectronics.
+
 ###License 
 MP3Player is released under the [MIT License](http://opensource.org/licenses/MIT).
-###Credits - jeśli chcą się Państwo pochwalić to proponuję tu się wpisać jako autorzy.
+
+###Credits 
 Project made by *Jakub Plebaniak*
+
 *The project was conducted during the Microprocessor Lab course held by the Institute of Control and Information Engineering, Poznan University of Technology.*
