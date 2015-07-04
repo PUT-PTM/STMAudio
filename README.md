@@ -4,8 +4,8 @@
 With this project you can use your STM32f4 discovery board to play your favourite music. 
 
 ###Description 
-It is a project based on the example from [here](http://vedder.se/2012/12/stm32f4-discovery-usb-host-and-mp3-player/). That example is based on other examples provided by STMicroelectronics.
-It's build in CooCox. 
+This project uses the Helix mp3 decoder and other files from this [example](http://vedder.se/2012/12/stm32f4-discovery-usb-host-and-mp3-player/) made by [Benjamin](http://vedder.se/).
+
 
 ###Tools
 [CooCox IDE](www.coocox.com) v1.7.8
