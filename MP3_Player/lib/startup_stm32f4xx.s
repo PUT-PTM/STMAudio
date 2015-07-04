@@ -127,7 +127,7 @@ Infinite_Loop:
 
 
 g_pfnVectors:
-  .word  _estack
+  .word  _eram //replaced (before, there was _estack) "_estack is a linker definition and is defined in the linker file" "This defines the address of the end of the ram section and the default stack pointer. "
   .word  Reset_Handler
   .word  NMI_Handler
   .word  HardFault_Handler
